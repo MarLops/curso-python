@@ -2,22 +2,16 @@ Interpretar scripts `*.py`
 ==========================
 
 
-Todo programa de computador é feito em duas etapas: 
 
-
-#. Escrever um scripts
-
-#. Executar o scripts
-
-A criação e execução do script podem ser feitas através do shell do python, ou em algum IDLE, ou no IDE + interpretador. Mostrerei cada utilizar cada um.
+A execução de um script python pode ser feita através shell ou interpretador.
 
 
 Shell do python 
 ---------------
 
-O acesso do shell do python no Linux/Mac/Windows é simples. Primeiro, abrimos o prompt de comando e em seguida, digitamos `python` (caso queira a versão 2.7), ou `python3` (caso queira a versão 3.6).
+Para acessar o shell, abrimos o prompt de comando e em seguida digitamos `python` (versão 2.7), ou `python3` (versão 3.6).
 
-Ao executar esse comando, o terminal ficara com essa aparência:
+Ao executar esse comando, o terminal ficará com essa aparência:
 
 .. doctest::
 
@@ -26,30 +20,29 @@ Ao executar esse comando, o terminal ficara com essa aparência:
 	Type "help", "copyright", "credits" or "license" for more information.
 	>>> 
 
-As primeiras linhas mostram a versão do python que esta sendo usado e outras informações. O importante é a linha indicada por :>>>: . Essa linha corresponde a linha que você escreverá o comando python. Após escrever, pressionamos o "enter" e o shell executará a linha e mostrará o resultado na linha baixo (olhar seção `Introdução <http://curso.grupysanca.com.br/pt/latest/introducao.html>`_).
+A linha que escreveremos o comando python está indicada pelo símbolo `>>>`. Após escrevemos, pressionamos o "enter" e pronto. 
+
+.. doctest::
+
+	>>>  2 + 3
+	5
+	>>>
+
+Para sair do shell, basta digitamos exit().
 
 
-IDE + interpretador
+Interpretador
 -------------------
 
-Talvez a forma mais usual de criar/executar o script seja usando o IDE+interpretador. Primeiramente, criamos um script 
-no editar de texto ou IDE (como o `ATOM <https://atom.io>`_) e salvamos o documento como arquivo `.py`. Essa extensão mostra para o computador
-que aquele documento é um script python.
+Depois de escrever o script no IDE e salva-lo como arquivo `.py`, abrimos o terminal e, usando o comando `cd` (caso tenha dúvida, acesse o `link <https://tutorial.djangogirls.org/pt/intro_to_command_line/>`_, navegamos até o diretório que se encontra o nosso script.
 
-Em seguida, abrimos o terminal e ,usando o comando `cd`, navegamos até a pasta que se encontra o nosso script (caso tenha dúvida, acesse o link `caso seja Windows <https://medium.com/@adsonrocha/como-abrir-e-navegar-entre-pastas-com-o-prompt-de-comandos-do-windows-10-68750eae8f47>`_ ou `caso seja Linux <https://neyntutors.com.br/2017/02/11/como-navegar-entre-os-diretorios-do-linux/>`_).
+Em seguida, digitamos no terminal o comando `python` ou `python3`, seguido pelo nome do script.
 
-Por último, digitamos no terminal o comando `python` ou `python3`, seguido com o nome do script, como mostrado abaixo:
-(não esquece de escrever a extensão do arquivo)
 
 .. doctest::
 
 	python script.py
 
 
-
-IDLE
-----
-
-Para utilizar o IDLE, segue o `link <file:///home/guilherme/grupy-sanca/curso-python/build/html/instalacao.html#ambientes-de-desenvolvimento>`_.
 
 
