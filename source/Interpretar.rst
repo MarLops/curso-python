@@ -9,7 +9,7 @@ Todo programa de computador é feito em duas etapas:
 
 #. Executar o scripts
 
-A criação e execução do script podem ser feitas através do shell do python, ou em algum IDLE, ou no IDE + interpretador. Mostrei cada utilizar cada um.
+A criação e execução do script podem ser feitas através do shell do python, ou em algum IDLE, ou no IDE + interpretador. Mostrerei cada utilizar cada um.
 
 
 Shell do python 
@@ -26,7 +26,7 @@ Ao executar esse comando, o terminal ficara com essa aparência:
 	Type "help", "copyright", "credits" or "license" for more information.
 	>>> 
 
-As primeiras linhas mostram a versão do python que esta sendo usado e outras informações. O importante é a linha indicada por :>>>: . Essa linha corresponde a linha que você escreverá o comando python. Após escrever, pressionamos o "enter" e o shell executará a linha e mostrará na linha de baixo o resultado (olhar seção `Introdução <http://curso.grupysanca.com.br/pt/latest/introducao.html>`_).
+As primeiras linhas mostram a versão do python que esta sendo usado e outras informações. O importante é a linha indicada por :>>>: . Essa linha corresponde a linha que você escreverá o comando python. Após escrever, pressionamos o "enter" e o shell executará a linha e mostrará o resultado na linha baixo (olhar seção `Introdução <http://curso.grupysanca.com.br/pt/latest/introducao.html>`_).
 
 
 IDE + interpretador
