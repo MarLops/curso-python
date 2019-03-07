@@ -10,6 +10,7 @@ Curso Introdutório de Python
 
    sobre_grupy
    instalacao
+   Interpretar
    introducao
    calculadora
    variaveis
@@ -22,3 +23,4 @@ Curso Introdutório de Python
    funcoes
    exercicios
    contribuidores
+
